@@ -13,6 +13,6 @@ public class Elektronik extends Produk{
     @Override 
     public void tampilInfo(){
         super.tampilInfo();
-        System.out.println("Masa Garansi: " + garansi + "Tahun");
+        System.out.println("Masa Garansi: " + garansi + " Tahun");
     }
 }
