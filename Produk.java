@@ -22,4 +22,8 @@ public class Produk {
         System.out.println("Harga: " + harga);
         System.out.println("Stok: " + stok);
     }
+    public double hitungTotalHarga(int jmlBeli){
+        return jmlBeli * harga;
+    }
+    public abstract double hitungHargaAkhir(int jmlBeli);
 }
