@@ -8,4 +8,11 @@ public class Produk {
         this.harga = harga;
         this.stok = stok;
     }
+
+    public void setStok(int jmlBeli){
+        stok -= jmlBeli;
+    }
+    public int getStok(){
+        return stok;
+    }
 }
