@@ -14,6 +14,6 @@ public class Makanan extends Produk {
     @Override 
     public void tampilInfo(){
         super.tampilInfo();
-        System.out.println("Masa Garansi: " + expired + " Hari");
+        System.out.println("Masa Kedaluarsa: " + expired + " Hari");
     }
 }

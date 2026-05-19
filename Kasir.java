@@ -6,7 +6,7 @@ public class Kasir {
     }
 
     public void tampilIdentitas(){
-        System.out.println("=== TOKO KITA ===");
+        System.out.println("=== NOTA BELANJA ===");
         System.out.println("Nama Kasir: " + namaKasir);
     }
 
